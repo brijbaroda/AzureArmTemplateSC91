@@ -1,0 +1,87 @@
+﻿{
+  "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "deploymentId": {
+      "value": "Test"
+    },
+    "location": {
+      "value": "West Europe"
+    },
+    "sitecoreAdminPassword": {
+      "value": "P@ssw0rd1234"
+    },
+    "licenseXml": {
+      "value": "https://dpwupscartifacts.blob.core.windows.net/sitecore9/license/license.xml"
+    },
+    "repAuthenticationApiKey": {
+      "value": "152a32cc-6623-423e-88f0-935d8d84a673"
+    },
+    "sqlServerLogin": {
+      "value": "sqladmin"
+    },
+    "sqlServerPassword": {
+      "value": "P@ssw0rd1234"
+    },
+    "siMsDeployPackageUrl": {
+      "value": "https://dpwupscartifacts.blob.core.windows.net/sitecore9/packages/scaled/Sitecore.IdentityServer.2.0.0-r00157.scwdp.zip"
+    },
+    "cmMsDeployPackageUrl": {
+      "value": "https://dpwupscartifacts.blob.core.windows.net/sitecore9/packages/scaled/Sitecore 9.1.0 rev. 001564 (Cloud)_cm.scwdp.zip"
+    },
+    "cdMsDeployPackageUrl": {
+      "value": "https://dpwupscartifacts.blob.core.windows.net/sitecore9/packages/scaled/Sitecore 9.1.0 rev. 001564 (Cloud)_cd.scwdp.zip"
+    },
+    "prcMsDeployPackageUrl": {
+      "value": "https://dpwupscartifacts.blob.core.windows.net/sitecore9/packages/scaled/Sitecore 9.1.0 rev. 001564 (Cloud)_prc.scwdp.zip"
+    },
+    "repMsDeployPackageUrl": {
+      "value": "https://dpwupscartifacts.blob.core.windows.net/sitecore9/packages/scaled/Sitecore 9.1.0 rev. 001564 (Cloud)_rep.scwdp.zip"
+    },
+    "xcRefDataMsDeployPackageUrl": {
+      "value": "https://dpwupscartifacts.blob.core.windows.net/sitecore9/packages/scaled/Sitecore 9.1.0 rev. 001564 (Cloud)_xp1referencedata.scwdp.zip"
+    },
+    "xcCollectMsDeployPackageUrl": {
+      "value": "https://dpwupscartifacts.blob.core.windows.net/sitecore9/packages/scaled/Sitecore 9.1.0 rev. 001564 (Cloud)_xp1collection.scwdp.zip"
+    },
+    "xcSearchMsDeployPackageUrl": {
+      "value": "https://dpwupscartifacts.blob.core.windows.net/sitecore9/packages/scaled/Sitecore 9.1.0 rev. 001564 (Cloud)_xp1collectionsearchsolr.scwdp.zip"
+    },
+    "cortexProcessingMsDeployPackageUrl": {
+      "value": "https://dpwupscartifacts.blob.core.windows.net/sitecore9/packages/scaled/Sitecore 9.1.0 rev. 001564 (Cloud)_xp1cortexprocessing.scwdp.zip"
+    },
+    "cortexReportingMsDeployPackageUrl": {
+      "value": "https://dpwupscartifacts.blob.core.windows.net/sitecore9/packages/scaled/Sitecore 9.1.0 rev. 001564 (Cloud)_xp1cortexreporting.scwdp.zip"
+    },
+    "maOpsMsDeployPackageUrl": {
+      "value": "https://dpwupscartifacts.blob.core.windows.net/sitecore9/packages/scaled/Sitecore 9.1.0 rev. 001564 (Cloud)_xp1marketingautomation.scwdp.zip"
+    },
+    "maRepMsDeployPackageUrl": {
+      "value": "https://dpwupscartifacts.blob.core.windows.net/sitecore9/packages/scaled/Sitecore 9.1.0 rev. 001564 (Cloud)_xp1marketingautomationreporting.scwdp.zip"
+    },
+    "authCertificateBlob": {
+      "value": ""
+    },
+    "authCertificatePassword": {
+      "value": "FP4WEPCayEL7T2p00buP"
+    },
+    "machineLearningServerConnectionString": {
+      "value": ""
+    },
+    "machineLearningServerBlobEndpointCertificatePath": {
+      "value": ""
+    },
+    "machineLearningServerBlobEndpointCertificatePassword": {
+      "value": ""
+    },
+    "machineLearningServerTableEndpointCertificatePath": {
+      "value": ""
+    },
+    "machineLearningServerTableEndpointCertificatePassword": {
+      "value": ""
+    },
+    "machineLearningServerEndpointCertificationAuthorityCertificatePath": {
+      "value": ""
+    }
+  }
+}
